@@ -14,7 +14,7 @@ def count_empty_strings(array)
   
   amount = 0
   array.count do |element|
-    if element.is_a? String 
+    if element == "" 
       amount += 1 
     end 
   end 
